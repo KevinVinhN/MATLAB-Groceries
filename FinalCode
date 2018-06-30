@@ -1,0 +1,1418 @@
+eggs.walmart = 'Walmart'; value1 = 0.90;
+eggs.publix = 'Publix'; value2 = 2.75;
+eggs.kroger = 'Kroger'; value3 = 1.59;
+eggs = struct (eggs.walmart,value1, eggs.publix, value2, eggs.kroger, value3);
+bread.walmart = 'Walmart'; value1 = 0.88;
+bread.publix = 'Publix'; value2 = 1.99;
+bread.kroger = 'Kroger'; value3 = 1.19;
+bread = struct (bread.walmart, value1, bread.publix, value2, bread.kroger,value3);
+milk.walmart = 'Walmart'; value1 = 2.96;
+milk.publix = 'Publix'; value2 = 3.19;
+milk.kroger = 'Kroger'; value3 = 2.79;
+milk = struct (milk.walmart, value1, milk.publix, value2, milk.kroger, value3);
+cheerios.walmart = 'Walmart'; value1 = 3.68;
+cheerios.publix = 'Publix'; value2 = 3.95;
+cheerios.kroger = 'Kroger'; value3 = 3.99;
+cheerios = struct (cheerios.walmart, value1, cheerios.publix, value2, cheerios.kroger, value3);
+flakes.walmart = 'Walmart'; value1 = 2.72;
+flakes.publix = 'Publix'; value2 = 3.00;
+flakes.kroger = 'Kroger'; value3 = 3.39;
+flakes = struct (flakes.walmart, value1, flakes.publix, value2, flakes.kroger, value3);
+yogurt.walmart = 'Walmart'; value1 = 4.74;
+yogurt.publix = 'Publix'; value2 = 4.37;
+yogurt.kroger = 'Kroger'; value3 = 4.00;
+yogurt = struct (yogurt.walmart, value1, yogurt.publix, value2, yogurt.kroger, value3);
+ramen.walmart = 'Walmart'; value1 = 0.20;
+ramen.publix = 'Publix'; value2 = 0.20;
+ramen.kroger = 'Kroger'; value3 = 0.25;
+ramen = struct (ramen.walmart, value1, ramen.publix, value2, ramen.kroger, value3);
+macncheese.walmart = 'Walmart'; value1 = 2.96;
+macncheese.publix = 'Publix'; value2 = 3.99;
+macncheese.kroger = 'Kroger'; value3 = 4.89;
+macncheese = struct (macncheese.walmart, value1, macncheese.publix, value2, macncheese.kroger, value3);
+apples.walmart = 'Walmart'; value1 = 1.27;
+apples.publix = 'Publix'; value2 = 1.69;
+apples.kroger = 'Kroger'; value3 = 1.48;
+apples = struct (apples.walmart, value1, apples.publix, value2, apples.kroger, value3);
+rice.walmart = 'Walmart'; value1 = 6.58;
+rice.publix = 'Publix'; value2 = 5.19;
+rice.kroger = 'Kroger'; value3 = 5.29;
+rice = struct (rice.walmart, value1, rice.publix, value2, rice.kroger, value3);
+pb.walmart = 'Walmart'; value1 = 1.53;
+pb.publix = 'Publix'; value2 = 2.00;
+pb.kroger = 'Kroger'; value3 = 1.99;
+pb = struct (pb.walmart, value1, pb.publix, value2, pb.kroger, value3);
+jelly.walmart = 'Walmart'; value1 = 1.68;
+jelly.publix = 'Publix'; value2 = 1.89;
+jelly.kroger = 'Kroger'; value3 = 1.59;
+jelly = struct (jelly.walmart, value1, jelly.publix, value2, jelly.kroger, value3);
+butter.walmart = 'Walmart'; value1 = 3.64;
+butter.publix = 'Publix'; value2 = 3.65;
+butter.kroger = 'Kroger'; value3 = 4.99;
+butter = struct (butter.walmart, value1, butter.publix, value2, butter.kroger, value3);
+hotpockets.walmart = 'Walmart'; value1 = 2.18;
+hotpockets.publix = 'Publix'; value2 = 1.97;
+hotpockets.kroger = 'Kroger'; value3 = 1.88;
+hotpockets = struct (hotpockets.walmart, value1, hotpockets.publix, value2, hotpockets.kroger, value3);
+pizzarolls.walmart = 'Walmart'; value1 = 2.98;
+pizzarolls.publix = 'Publix'; value2 = 2.95;
+pizzarolls.kroger = 'Kroger'; value3 = 2.99;
+pizzarolls = struct (pizzarolls.walmart, value1, pizzarolls.publix, value2, pizzarolls.kroger, value3);
+oj.walmart = 'Walmart'; value1 = 3.93;
+oj.publix = 'Publix'; value2 = 4.99;
+oj.kroger = 'Kroger'; value3 = 3.99;
+oj = struct (oj.walmart, value1, oj.publix, value2, oj.kroger, value3);
+bacon.walmart = 'Walmart'; value1 = 3.63;
+bacon.publix = 'Publix'; value2 = 3.25;
+bacon.kroger = 'Kroger'; value3 = 4.29;
+bacon = struct (bacon.walmart, value1, bacon.publix, value2, bacon.kroger, value3);
+cheese.walmart = 'Walmart'; value1 = 3.47;
+cheese.publix = 'Publix'; value2 = 2.50;
+cheese.kroger = 'Kroger'; value3 = 3.39;
+cheese = struct (cheese.walmart, value1, cheese.publix, value2, cheese.kroger, value3);
+creamcheese.walmart = 'Walmart'; value1 = 2.36;
+creamcheese.publix = 'Publix'; value2 = 1.50;
+creamcheese.kroger = 'Kroger'; value3 = 1.99;
+creamcheese = struct (creamcheese.walmart, value1, creamcheese.publix, value2, creamcheese.kroger, value3);
+bagels.walmart = 'Walmart'; value1 = 1.76;
+bagels.publix = 'Publix'; value2 = 1.87;
+bagels.kroger = 'Kroger'; value3 = 2.29;
+bagels = struct (bagels.walmart, value1, bagels.publix, value2, bagels.kroger, value3);
+oranges.walmart = 'Walmart'; value1 = 0.50;
+oranges.publix = 'Publix'; value2 = 1.69;
+oranges.kroger = 'Kroger'; value3 = 0.78;
+oranges = struct (oranges.walmart, value1, oranges.publix, value2, oranges.kroger, value3);
+grapes.walmart = 'Walmart'; value1 = 1.98;
+grapes.publix = 'Publix'; value2 = 3.99;
+grapes.kroger = 'Kroger'; value3 = 2.28;
+grapes = struct (grapes.walmart, value1, grapes.publix, value2, grapes.kroger, value3);
+carrots.walmart = 'Walmart'; value1 = 0.67;
+carrots.publix = 'Publix'; value2 = 0.99;
+carrots.kroger = 'Kroger'; value3 = 0.99;
+carrots = struct (carrots.walmart, value1, carrots.publix, value2, carrots.kroger, value3);
+tomatoes.walmart = 'Walmart'; value1 = 1.48;
+tomatoes.publix = 'Publix'; value2 = 2.29;
+tomatoes.kroger = 'Kroger'; value3 = 3.79;
+tomatoes = struct (tomatoes.walmart, value1, tomatoes.publix, value2, tomatoes.kroger, value3);
+trailmix.walmart = 'Walmart'; value1 = 4.47;
+trailmix.publix = 'Publix'; value2 = 4.49;
+trailmix.kroger = 'Kroger'; value3 = 4.29;
+trailmix = struct (trailmix.walmart, value1, trailmix.publix, value2, trailmix.kroger, value3);
+spinach.walmart = 'Walmart'; value1 = 2.94;
+spinach.publix = 'Publix'; value2 = 2.49;
+spinach.kroger = 'Kroger'; value3 = 0.98;
+spinach = struct (spinach.walmart, value1, spinach.publix, value2, spinach.kroger, value3);
+redngreenpeppers.walmart = 'Walmart'; value1 = 0.78;
+redngreenpeppers.publix = 'Publix'; value2 = 2.69;
+redngreenpeppers.kroger = 'Kroger'; value3 = 0.68;
+redngreenpeppers = struct (redngreenpeppers.walmart, value1, redngreenpeppers.publix, value2, redngreenpeppers.kroger, value3);
+oatmeal.walmart = 'Walmart'; value1 = 1.34;
+oatmeal.publix = 'Publix'; value2 = 2.97;
+oatmeal.kroger = 'Kroger'; value3 = 2.49;
+oatmeal = struct (oatmeal.walmart, value1, oatmeal.publix, value2, oatmeal.kroger, value3);
+corn.walmart = 'Walmart'; value1 = 0.50;
+corn.publix = 'Publix'; value2 = 1.25;
+corn.kroger = 'Kroger'; value3 = 0.75;
+corn = struct (corn.walmart, value1, corn.publix, value2, corn.kroger, value3);
+granola.walmart = 'Walmart'; value1 = 2.97;
+granola.publix = 'Publix'; value2 = 2.45;
+granola.kroger = 'Kroger'; value3 = 2.50;
+granola = struct (granola.walmart, value1, granola.publix, value2, granola.kroger, value3);
+garlic.walmart = 'Walmart'; value1 = 3.28;
+garlic.publix = 'Publix'; value2 = 3.69;
+garlic.kroger = 'Kroger'; value3 = 0.79;
+garlic = struct (garlic.walmart, value1, garlic.publix, value2, garlic.kroger, value3);
+onion.walmart = 'Walmart'; value1 = 0.68;
+onion.publix = 'Publix'; value2 = 1.69;
+onion.kroger = 'Kroger'; value3 = 1.00;
+onion = struct (onion.walmart, value1, onion.publix, value2, onion.kroger, value3);
+oliveoil.walmart = 'Walmart'; value1 = 5.49;
+oliveoil.publix = 'Publix'; value2 = 4.99;
+oliveoil.kroger = 'Kroger'; value3 = 5.99;
+oliveoil = struct (oliveoil.walmart, value1, oliveoil.publix, value2, oliveoil.kroger, value3);
+celery.walmart = 'Walmart'; value1 = 1.34;
+celery.publix = 'Publix'; value2 = 1.99;
+celery.kroger = 'Kroger'; value3 = 0.98;
+celery = struct (celery.walmart, value1, celery.publix, value2, celery.kroger, value3);
+bananas.walmart = 'Walmart'; value1 = 0.56;
+bananas.publix = 'Publix'; value2 = 0.65;
+bananas.kroger = 'Kroger'; value3 = 0.55;
+bananas = struct (bananas.walmart, value1, bananas.publix, value2, bananas.kroger, value3);
+ketchup.walmart = 'Walmart'; value1 = 1.00;
+ketchup.publix = 'Publix'; value2 = 1.49;
+ketchup.kroger = 'Kroger'; value3 = 1.69;
+ketchup = struct (ketchup.walmart, value1, ketchup.publix, value2, ketchup.kroger, value3);
+hotdogs.walmart = 'Walmart'; value1 = 3.49;
+hotdogs.publix = 'Publix'; value2 = 3.49;
+hotdogs.kroger = 'Kroger'; value3 = 3.99;
+hotdogs = struct (hotdogs.walmart, value1, hotdogs.publix, value2, hotdogs.kroger, value3);
+water.walmart = 'Walmart'; value1 = 4.99;
+water.publix = 'Publix'; value2 = 4.99;
+water.kroger = 'Kroger'; value3 = 4.50;
+water = struct (water.walmart, value1, water.publix, value2, water.kroger, value3);
+coke.walmart = 'Walmart'; value1 = 1.50;
+coke.publix = 'Publix'; value2 = 1.67;
+coke.kroger = 'Kroger'; value3 = 1.67;
+coke = struct (coke.walmart, value1, coke.publix, value2, coke.kroger, value3);
+groundbeef.walmart = 'Walmart'; value1 = 5.49;
+groundbeef.publix = 'Publix'; value2 = 6.02;
+groundbeef.kroger = 'Kroger'; value3 = 5.99;
+groundbeef = struct (groundbeef.walmart, value1, groundbeef.publix, value2, groundbeef.kroger, value3);
+spaghetti.walmart = 'Walmart'; value1 = 2.19;
+spaghetti.publix = 'Publix'; value2 = 1.47;
+spaghetti.kroger = 'Kroger'; value3 = 2.59;
+spaghetti = struct (spaghetti.walmart, value1, spaghetti.publix, value2, spaghetti.kroger, value3);
+spaghettisauce.walmart = 'Walmart'; value1 = 1.79;
+spaghettisauce.publix = 'Publix'; value2 = 1.87;
+spaghettisauce.kroger = 'Kroger'; value3 = 1.89;
+spaghettisauce = struct (spaghettisauce.walmart, value1, spaghettisauce.publix, value2, spaghettisauce.kroger, value3);
+salt.walmart = 'Walmart'; value1 = 0.84;
+salt.publix = 'Publix'; value2 = 0.81;
+salt.kroger = 'Kroger'; value3 = 0.83;
+salt = struct (salt.walmart, value1, salt.publix, value2, salt.kroger, value3);
+pepper.walmart = 'Walmart'; value1 = 1.88;
+pepper.publix = 'Publix'; value2 = 2.49;
+pepper.kroger = 'Kroger'; value3 = 2.59;
+pepper = struct (pepper.walmart, value1, pepper.publix, value2, pepper.kroger, value3);
+hotdogbun.walmart = 'Walmart'; value1 = 3.26;
+hotdogbun.publix = 'Publix'; value2 = 3.39;
+hotdogbun.kroger = 'Kroger'; value3 = 3.29;
+hotdogbun = struct (hotdogbun.walmart, value1, hotdogbun.publix, value2, hotdogbun.kroger, value3);
+disp('Cheapest prices of each item is as follows: ');
+a=0;
+awalmart = 0;
+apublix = 0;
+akroger = 0;
+ON=1;
+OFF=0;
+loop = ON;
+while loop == ON
+    
+    choice = menu('Grocery List', 'Eggs', 'Bread', 'Milk','Cheerios','Frosted Flakes', ...
+        'Yogurt','Ramen', 'MacnCheese', 'Apple', 'Rice', 'Peanut Butter',...
+        'Jelly', 'Butter', 'Hot Pockets', 'Pizza Rolls', 'Orange Juice',...
+        'Bacon', 'Cheese', 'Cream Cheese', 'Bagels', 'Oranges',...
+        'Grapes', 'Carrots', 'Tomatoes', 'Trailmix', 'Spinach',...
+        'Red/Green Peppers', 'Oatmeal', 'Corn', 'Granola', 'Garlic',...
+        'Olive Oil', 'Celery', 'Bananas', 'Ketchup', 'Hotdogs',...
+        'Water', 'Coke', 'Groundbeef', 'Spaghetti Noodles', 'Spaghetti Sauce',...
+        'Salt', 'Pepper', 'Hotdog Buns','Onion','Done');
+    
+    switch choice
+        case 1
+            if min(cell2mat(struct2cell(eggs))) == 0.90
+                disp('Eggs cheapest at Walmart: $0.90 (publix: $2.75, Kroger: $1.59)');
+                a(1) = 0.90;
+                awalmart = awalmart + 0.90;
+                apublix = apublix + 2.75;
+                akroger = akroger + 1.59;
+            elseif min(cell2mat(struct2cell(eggs))) == 2.75
+                disp('Eggs cheapest at publix: $2.75 (Walmart: $0.90, Kroger: $1.59)')
+                a(1) = 2.75;
+                awalmart = awalmart + 0.90;
+                apublix = apublix + 2.75;
+                akroger = akroger + 0.99;
+            elseif min(cell2mat(struct2cell(eggs))) == 1.59
+                disp('Eggs cheapest at Kroger: $1.59 (Walmart: $0.90, publix $1.59)')
+                a(1) = 1.59;
+                awalmart = awalmart + 0.90;
+                apublix = apublix + 2.75;
+                akroger = akroger + 1.59;
+            else
+                a(1) = 0;
+            end
+            
+        case 2
+            if min(cell2mat(struct2cell(bread))) == 0.88
+                disp('Bread cheapest at Walmart: $0.88 (publix: $1.99, Kroger: $1.19)');
+                a(2) = 0.88;
+                awalmart = awalmart + 0.88;
+                apublix = apublix + 1.99;
+                akroger = akroger + 1.19;
+            elseif min(cell2mat(struct2cell(bread))) == 1.99
+                disp('Bread cheapest at publix: $1.99 (Walmart: $0.88, Kroger: $1.19)')
+                a(2) = 1.99;
+                awalmart = awalmart + 0.88;
+                apublix = apublix + 1.99;
+                akroger = akroger + 1.00;
+            elseif min(cell2mat(struct2cell(bread))) == 1.19
+                disp('Bread cheapest at Kroger: $1.19 (Walmart: $0.88, publix: $1.19)')
+                a(2) = 1.19;
+                awalmart = awalmart + 0.88;
+                apublix = apublix + 1.99;
+                akroger = akroger + 1.19;
+            else
+                a(2)=0;
+            end
+            
+        case 3
+            if min(cell2mat(struct2cell(milk))) == 2.96
+                disp('Milk cheapest at Walmart: $2.96 (publix: $3.19, Kroger: $2.79)');
+                a(3) = 2.96;
+                awalmart = awalmart + 2.96;
+                apublix = apublix + 3.19;
+                akroger = akroger + 2.79;
+            elseif min(cell2mat(struct2cell(milk))) == 3.19
+                disp('Milk cheapest at publix: $3.19 (Walmart: $2.96, Kroger: $2.79)')
+                a(3) = 3.19;
+                awalmart = awalmart + 2.96;
+                apublix = apublix + 3.19;
+                akroger = akroger + 1.00;
+            elseif min(cell2mat(struct2cell(milk))) == 2.79
+                disp('Milk cheapest at Kroger: $2.79 (Walmart: $2.96, publix: $3.19)')
+                a(3) = 2.79;
+                awalmart = awalmart + 2.96;
+                apublix = apublix + 3.19;
+                akroger = akroger + 2.79;
+            else
+                a(3)=0;
+            end
+        case 4
+            if min(cell2mat(struct2cell(cheerios))) == 3.68
+                disp('Cherrios cheapest at Walmart: $3.68 (publix: $3.95, Kroger: $3.99)');
+                a(4) = 3.68;
+                awalmart = awalmart + 3.68;
+                apublix = apublix + 3.95;
+                akroger = akroger + 3.99;
+            elseif min(cell2mat(struct2cell(cheerios))) == 3.95
+                disp('Cherrios cheapest at publix: $3.95 (Walmart: $3.68, Kroger: $3.99)')
+                a(4) = 3.95;
+                awalmart = awalmart + 3.68;
+                apublix = apublix + 3.95;
+                akroger = akroger + 1.00;
+            elseif min(cell2mat(struct2cell(cheerios))) == 3.99
+                disp('Cherrios cheapest at Kroger: $3.99 (Walmart: $3.68, publix: $3.95)')
+                a(4) = 3.99;
+                awalmart = awalmart + 3.68;
+                apublix = apublix + 3.95;
+                akroger = akroger + 3.99;
+            else
+                a(4)=0;
+            end
+        case 5
+            if min(cell2mat(struct2cell(flakes))) == 2.72
+                disp('flakes cheapest at Walmart: $2.72 (publix: $3.00, Kroger: $3.39)');
+                a(5) = 2.72;
+                awalmart = awalmart + 2.72;
+                apublix = apublix + 2.50;
+                akroger = akroger + 3.39;
+            elseif min(cell2mat(struct2cell(flakes))) == 3.00
+                disp('flakes cheapest at publix: $3.00 (Walmart: $2.72, Kroger: $3.39)')
+                a(5) = 3.00;
+                awalmart = awalmart + 2.72;
+                apublix = apublix + 3.00;
+                akroger = akroger + 3.39;
+            elseif min(cell2mat(struct2cell(flakes))) == 3.00
+                disp('flakes cheapest at Kroger: $3.39 (Walmart: $2.72, publix: $3.00)')
+                a(5) = 3.39;
+                awalmart = awalmart + 2.72;
+                apublix = apublix + 3.00;
+                akroger = akroger + 3.39;
+            else
+                a(5)=0;
+            end
+        case 6
+            if min(cell2mat(struct2cell(yogurt))) == 4.74
+                disp('yogurt cheapest at Walmart: $4.74 (publix: $4.37, Kroger: $4.00)');
+                a(6) = 4.74;
+                awalmart = awalmart + 4.74;
+                apublix = apublix + 4.37;
+                akroger = akroger + 4.00;
+            elseif min(cell2mat(struct2cell(yogurt))) == 4.37
+                disp('yogurt cheapest at publix: $4.37 (Walmart: $4.74, Kroger: $4.00)')
+                a(6) = 4.37;
+                awalmart = awalmart + 4.74;
+                apublix = apublix + 4.37;
+                akroger = akroger + 4.00;
+            elseif min(cell2mat(struct2cell(yogurt))) == 4.00
+                disp('yogurt cheapest at Kroger: $4.00 (Walmart: $4.74, publix: $4.37)')
+                a(6) = 4.00;
+                awalmart = awalmart + 4.74;
+                apublix = apublix + 2.50;
+                akroger = akroger + 4.00;
+            else
+                a(6)=0;
+            end
+        case 7
+            if min(cell2mat(struct2cell(ramen))) == 0.20
+                disp('ramen cheapest at Walmart: $0.20 (publix: $0.20, Kroger: $0.25)');
+                a(7) = 0.20;
+                awalmart = awalmart + 0.20;
+                apublix = apublix + 0.20;
+                akroger = akroger + 0.25;
+            elseif min(cell2mat(struct2cell(ramen))) == 0.20
+                disp('ramen cheapest at publix: $0.20 (Walmart: $0.20, Kroger: $0.25)')
+                a(7) = 0.20;
+                awalmart = awalmart + 0.20;
+                apublix = apublix + 0.20;
+                akroger = akroger + 0.25;
+            elseif min(cell2mat(struct2cell(ramen))) == 0.25
+                disp('ramen cheapest at Kroger: $0.25 (Walmart: $0.20, publix: $0.20)')
+                a(7) = 0.25;
+                awalmart = awalmart + 0.20;
+                apublix = apublix + 0.20;
+                akroger = akroger + 0.25;
+            else
+                a(7)=0;
+            end
+        case 8
+            if min(cell2mat(struct2cell(macncheese))) == 2.96
+                disp('macncheese cheapest at Walmart: $2.96 (publix: $3.99, Kroger: $4.89)');
+                a(8) = 2.96;
+                awalmart = awalmart + 2.96;
+                apublix = apublix + 3.99;
+                akroger = akroger + 4.89;
+            elseif min(cell2mat(struct2cell(macncheese))) == 3.99
+                disp('macncheese cheapest at publix: $3.99 (Walmart: $2.96, Kroger: $4.89)')
+                a(8) = 3.99;
+                awalmart = awalmart + 2.96;
+                apublix = apublix + 3.99;
+                akroger = akroger + 4.89;
+            elseif min(cell2mat(struct2cell(macncheese))) == 4.89
+                disp('macncheese cheapest at Kroger: $4.89 (Walmart: $2.96, publix: $3.99)')
+                a(8) = 4.89;
+                awalmart = awalmart + 2.96;
+                apublix = apublix + 3.99;
+                akroger = akroger + 4.89;
+            else
+                a(8)=0;
+            end
+        case 9
+            if min(cell2mat(struct2cell(apples))) == 1.27
+                disp('apples cheapest at Walmart: $1.27 (publix: $1.69, Kroger: $1.48)');
+                a(9) = 1.27;
+                awalmart = awalmart + 1.27;
+                apublix = apublix + 1.69;
+                akroger = akroger + 1.48;
+            elseif min(cell2mat(struct2cell(apples))) == 1.69
+                disp('apples cheapest at publix: $1.69 (Walmart: $1.27, Kroger: $1.48)')
+                a(9) = 1.69;
+                awalmart = awalmart + 1.27;
+                apublix = apublix + 1.69;
+                akroger = akroger + 1.48;
+            elseif min(cell2mat(struct2cell(apples))) == 1.48
+                disp('apples cheapest at Kroger: $1.48 (Walmart: $1.27, publix: $1.69)')
+                a(9) = 1.48;
+                awalmart = awalmart + 1.27;
+                apublix = apublix + 1.69;
+                akroger = akroger + 1.48;
+            else
+                a(9)=0;
+            end
+        case 10
+            if min(cell2mat(struct2cell(rice))) == 6.58
+                disp('rice cheapest at Walmart: $6.58 (publix: $5.19, Kroger: $5.29)');
+                a(10) = 6.58;
+                awalmart = awalmart + 6.58;
+                apublix = apublix + 5.19;
+                akroger = akroger + 5.29;
+            elseif min(cell2mat(struct2cell(rice))) == 5.19
+                disp('rice cheapest at publix: $5.19 (Walmart: $6.58, Kroger: $5.29)')
+                a(10) = 5.19;
+                awalmart = awalmart + 6.58;
+                apublix = apublix + 5.19;
+                akroger = akroger + 5.29;
+            elseif min(cell2mat(struct2cell(rice))) == 5.29
+                disp('rice cheapest at Kroger: $5.29 (Walmart: $6.58, publix: $5.19)')
+                a(10) = 5.29;
+                awalmart = awalmart + 6.58;
+                apublix = apublix + 5.19;
+                akroger = akroger + 5.29;
+            else
+                a(10)=0;
+            end
+        case 11
+            if min(cell2mat(struct2cell(pb))) == 1.53
+                disp('pb cheapest at Walmart: $1.53 (publix: $2.00, Kroger: $1.99)');
+                a(11) = 1.53;
+                awalmart = awalmart + 1.53;
+                apublix = apublix + 2.00;
+                akroger = akroger + 1.99;
+            elseif min(cell2mat(struct2cell(pb))) == 2.00
+                disp('pb cheapest at publix: $2.00 (Walmart: $1.53, Kroger: $1.99)')
+                a(11) = 2.00;
+                awalmart = awalmart + 1.53;
+                apublix = apublix + 2.00;
+                akroger = akroger + 1.99;
+            elseif min(cell2mat(struct2cell(pb))) == 1.99
+                disp('pb cheapest at Kroger: $1.99 (Walmart: $1.53, publix: $2.00)')
+                a(11) = 1.99;
+                awalmart = awalmart + 1.53;
+                apublix = apublix + 2.00;
+                akroger = akroger + 1.99;
+            else
+                a(11)=0;
+            end
+        case 12
+            if min(cell2mat(struct2cell(jelly))) == 1.68
+                disp('jelly cheapest at Walmart: $1.68 (publix: $1.89, Kroger: $1.59)');
+                a(12) = 1.68;
+                awalmart = awalmart + 1.68;
+                apublix = apublix + 1.89;
+                akroger = akroger + 1.59;
+            elseif min(cell2mat(struct2cell(jelly))) == 1.89
+                disp('jelly cheapest at publix: $1.89 (Walmart: $1.68, Kroger: $1.59)')
+                a(12) = 1.89;
+                awalmart = awalmart + 1.68;
+                apublix = apublix + 1.89;
+                akroger = akroger + 1.00;
+            elseif min(cell2mat(struct2cell(jelly))) == 1.59
+                disp('jelly cheapest at Kroger: $1.59 (Walmart: $1.68, publix: $1.89)')
+                a(12) = 1.59;
+                awalmart = awalmart + 1.68;
+                apublix = apublix + 1.89;
+                akroger = akroger + 1.59;
+            else
+                a(12)=0;
+            end
+        case 13
+            if min(cell2mat(struct2cell(butter))) == 3.64
+                disp('butter cheapest at Walmart: $3.64 (publix: $3.65, Kroger: $4.99)');
+                a(13) = 3.64;
+                awalmart = awalmart + 3.64;
+                apublix = apublix + 3.65;
+                akroger = akroger + 4.99;
+            elseif min(cell2mat(struct2cell(butter))) == 3.65
+                disp('butter cheapest at publix: $3.65 (Walmart: $3.64, Kroger: $4.99)')
+                a(13) = 3.65;
+                awalmart = awalmart + 3.64;
+                apublix = apublix + 3.65;
+                akroger = akroger + 4.99;
+            elseif min(cell2mat(struct2cell(butter))) == 4.99
+                disp('butter cheapest at Kroger: $4.99 (Walmart: $3.64, publix: $3.65)')
+                a(13) = 4.99;
+                awalmart = awalmart + 3.64;
+                apublix = apublix + 3.65;
+                akroger = akroger + 4.99;
+            else
+                a(13)=0;
+            end
+        case 14
+            if min(cell2mat(struct2cell(hotpockets))) == 2.18
+                disp('hotpockets cheapest at Walmart: $2.18 (publix: $1.97, Kroger: $1.88)');
+                a(14) = 2.18;
+                awalmart = awalmart + 2.18;
+                apublix = apublix + 1.97;
+                akroger = akroger + 1.88;
+            elseif min(cell2mat(struct2cell(hotpockets))) == 1.97
+                disp('hotpockets cheapest at publix: $1.97 (Walmart: $2.18, Kroger: $1.88)')
+                a(14) = 1.97;
+                awalmart = awalmart + 2.18;
+                apublix = apublix + 1.97;
+                akroger = akroger + 1.88;
+            elseif min(cell2mat(struct2cell(hotpockets))) == 1.88
+                disp('hotpockets cheapest at Kroger: $1.88 (Walmart: $2.18, publix: $1.97)')
+                a(14) = 1.88;
+                awalmart = awalmart + 2.18;
+                apublix = apublix + 1.97;
+                akroger = akroger + 1.88;
+            else
+                a(14)=0;
+            end
+        case 15
+            if min(cell2mat(struct2cell(pizzarolls))) == 2.98
+                disp('pizzarolls cheapest at Walmart: $2.98 (publix: $2.95, Kroger: $2.99)');
+                a(15) = 2.98;
+                awalmart = awalmart + 2.98;
+                apublix = apublix + 2.95;
+                akroger = akroger + 2.99;
+            elseif min(cell2mat(struct2cell(pizzarolls))) == 2.95
+                disp('pizzarolls cheapest at publix: $2.95 (Walmart: $2.98, Kroger: $2.99)')
+                a(15) = 2.95;
+                awalmart = awalmart + 2.98;
+                apublix = apublix + 2.95;
+                akroger = akroger + 2.99;
+            elseif min(cell2mat(struct2cell(pizzarolls))) == 2.99
+                disp('pizzarolls cheapest at Kroger: $2.99 (Walmart: $2.98, publix: $2.95)')
+                a(15) = 2.99;
+                awalmart = awalmart + 2.98;
+                apublix = apublix + 2.95;
+                akroger = akroger + 2.99;
+            else
+                a(15)=0;
+            end
+        case 16
+            if min(cell2mat(struct2cell(oj))) == 3.93
+                disp('oj cheapest at Walmart: $3.93 (publix: $4.99, Kroger: $3.99)');
+                a(16) = 3.93;
+                awalmart = awalmart + 3.93;
+                apublix = apublix + 4.99;
+                akroger = akroger + 3.99;
+            elseif min(cell2mat(struct2cell(oj))) == 4.99
+                disp('oj cheapest at publix: $4.99 (Walmart: $3.93, Kroger: $3.99)')
+                a(16) = 4.99;
+                awalmart = awalmart + 3.93;
+                apublix = apublix + 4.99;
+                akroger = akroger + 3.99;
+            elseif min(cell2mat(struct2cell(oj))) == 3.99
+                disp('oj cheapest at Kroger: $3.99 (Walmart: $3.93, publix: $3.99)')
+                a(16) = 3.99;
+                awalmart = awalmart + 3.93;
+                apublix = apublix + 2.50;
+                akroger = akroger + 3.99;
+            else
+                a(16)=0;
+            end
+        case 17
+            if min(cell2mat(struct2cell(bacon))) == 3.63
+                disp('bacon cheapest at Walmart: $3.63 (publix: $3.25, Kroger: $4.29)');
+                a(17) = 3.63;
+                awalmart = awalmart + 3.63;
+                apublix = apublix + 3.25;
+                akroger = akroger + 4.29;
+            elseif min(cell2mat(struct2cell(bacon))) == 3.25
+                disp('bacon cheapest at publix: $3.25 (Walmart: $3.63, Kroger: $4.29)')
+                a(17) = 3.25;
+                awalmart = awalmart + 3.63;
+                apublix = apublix + 3.25;
+                akroger = akroger + 4.29;
+            elseif min(cell2mat(struct2cell(bacon))) == 4.29
+                disp('bacon cheapest at Kroger: $4.29 (Walmart: $3.63, publix: $3.25)')
+                a(17) = 4.29;
+                awalmart = awalmart + 3.63;
+                apublix = apublix + 3.25;
+                akroger = akroger + 4.29;
+            else
+                a(17)=0;
+            end
+        case 18
+            if min(cell2mat(struct2cell(cheese))) == 3.47
+                disp('cheese cheapest at Walmart: $3.47(publix: $2.50, Kroger: $3.39)');
+                a(18) = 3.47;
+                awalmart = awalmart + 2.99;
+                apublix = apublix + 2.50;
+                akroger = akroger + 3.39;
+            elseif min(cell2mat(struct2cell(cheese))) == 2.50
+                disp('cheese cheapest at publix: $2.50 (Walmart: $3.47, Kroger: $3.39)')
+                a(18) = 2.50;
+                awalmart = awalmart + 3.47;
+                apublix = apublix + 2.50;
+                akroger = akroger + 3.39;
+            elseif min(cell2mat(struct2cell(cheese))) == 3.39
+                disp('cheese cheapest at Kroger: $3.39 (Walmart: $3.47, publix: $2.50)')
+                a(18) = 3.39;
+                awalmart = awalmart + 3.47;
+                apublix = apublix + 2.50;
+                akroger = akroger + 3.39;
+            else
+                a(18)=0;
+            end
+        case 19
+            if min(cell2mat(struct2cell(creamcheese))) == 2.36
+                disp('creamcheese cheapest at Walmart: $2.36 (publix: $1.50, Kroger: $1.99)');
+                a(19) = 2.36;
+                awalmart = awalmart + 2.36;
+                apublix = apublix + 1.50;
+                akroger = akroger + 1.99;
+            elseif min(cell2mat(struct2cell(creamcheese))) == 1.50
+                disp('creamcheese cheapest at publix: $1.50 (Walmart: $2.36, Kroger: $1.99)')
+                a(19) = 1.50;
+                awalmart = awalmart + 2.36;
+                apublix = apublix + 1.50;
+                akroger = akroger + 1.99;
+            elseif min(cell2mat(struct2cell(creamcheese))) == 1.99
+                disp('creamcheese cheapest at Kroger: $1.99 (Walmart: $2.36, publix: $1.50)')
+                a(19) = 1.99;
+                awalmart = awalmart + 2.36;
+                apublix = apublix + 1.50;
+                akroger = akroger + 1.99;
+            else
+                a(19)=0;
+            end
+        case 20
+            if min(cell2mat(struct2cell(bagels))) == 1.76
+                disp('bagels cheapest at Walmart: $1.76 (publix: $1.87, Kroger: $2.29)');
+                a(20) = 1.76;
+                awalmart = awalmart + 1.76;
+                apublix = apublix + 1.87;
+                akroger = akroger + 2.29;
+            elseif min(cell2mat(struct2cell(bagels))) == 1.87
+                disp('bagels cheapest at publix: $1.87 (Walmart: $1.76, Kroger: $2.29)')
+                a(20) = 1.87;
+                awalmart = awalmart + 1.76;
+                apublix = apublix + 1.87;
+                akroger = akroger + 2.29;
+            elseif min(cell2mat(struct2cell(bagels))) == 2.29
+                disp('bagels cheapest at Kroger: $2.29 (Walmart: $1.76, publix: $1.87)')
+                a(20) = 2.29;
+                awalmart = awalmart + 1.76;
+                apublix = apublix + 1.87;
+                akroger = akroger + 2.29;
+            else
+                a(20)=0;
+            end
+        case 21
+            if min(cell2mat(struct2cell(oranges))) == 0.50
+                disp('oranges cheapest at Walmart: $0.50 (publix: $1.69, Kroger: $0.78');
+                a(21) = 0.50;
+                awalmart = awalmart + 0.50;
+                apublix = apublix + 1.69;
+                akroger = akroger + 0.78;
+            elseif min(cell2mat(struct2cell(oranges))) == 1.69
+                disp('oranges cheapest at publix: $1.69 (Walmart: $0.50, Kroger: $0.78)')
+                a(21) = 1.69;
+                awalmart = awalmart + 0.50;
+                apublix = apublix + 1.69;
+                akroger = akroger + 0.78;
+            elseif min(cell2mat(struct2cell(oranges))) == 0.78
+                disp('oranges cheapest at Kroger: $0.78 (Walmart: $0.50, publix: $1.69)')
+                a(21) = 0.78;
+                awalmart = awalmart + 0.50;
+                apublix = apublix + 1.69;
+                akroger = akroger + 0.78;
+            else
+                a(21)=0;
+            end
+        case 22
+            if min(cell2mat(struct2cell(grapes))) == 1.98
+                disp('grapes cheapest at Walmart: $1.98 (publix: $3.99, Kroger: $2.28)');
+                a(22) = 1.98;
+                awalmart = awalmart + 1.98;
+                apublix = apublix + 3.99;
+                akroger = akroger + 2.28;
+            elseif min(cell2mat(struct2cell(grapes))) == 3.99
+                disp('grapes cheapest at publix: $3.99 (Walmart: $1.98, Kroger: $2.28)')
+                a(22) = 3.99;
+                awalmart = awalmart + 1.98;
+                apublix = apublix + 3.99;
+                akroger = akroger + 2.28;
+            elseif min(cell2mat(struct2cell(grapes))) == 2.28
+                disp('grapes cheapest at Kroger: $2.28 (Walmart: $1.98, publix: $3.99)')
+                a(22) = 2.28;
+                awalmart = awalmart + 1.98;
+                apublix = apublix + 3.99;
+                akroger = akroger + 2.28;
+            else
+                a(22)=0;
+            end
+        case 23
+            if min(cell2mat(struct2cell(carrots))) == 0.67
+                disp('carrots cheapest at Walmart: $0.67 (publix: $0.99, Kroger: $0.99)');
+                a(23) = 0.67;
+                awalmart = awalmart + 0.67;
+                apublix = apublix + 0.99;
+                akroger = akroger + 0.99;
+            elseif min(cell2mat(struct2cell(carrots))) == 0.99
+                disp('carrots cheapest at publix: $0.99 (Walmart: $0.67, Kroger: $0.99)')
+                a(23) = 0.99;
+                awalmart = awalmart + 0.67;
+                apublix = apublix + 0.99;
+                akroger = akroger + 0.99;
+            elseif min(cell2mat(struct2cell(carrots))) == 0.99
+                disp('carrots cheapest at Kroger: $0.99 (Walmart: $0.67, publix: $0.99)')
+                a(23) = 0.99;
+                awalmart = awalmart + 0.67;
+                apublix = apublix + 0.99;
+                akroger = akroger + 0.99;
+            else
+                a(23)=0;
+            end
+        case 24
+            if min(cell2mat(struct2cell(tomatoes))) == 1.48
+                disp('tomatoes cheapest at Walmart: $1.48 (publix: $2.29, Kroger: $3.79)');
+                a(24) = 1.48;
+                awalmart = awalmart + 1.48;
+                apublix = apublix + 2.29;
+                akroger = akroger + 3.79;
+            elseif min(cell2mat(struct2cell(tomatoes))) == 2.29
+                disp('tomatoes cheapest at publix: $2.29 (Walmart: $1.48, Kroger: $3.79)')
+                a(24) = 2.29;
+                awalmart = awalmart + 1.48;
+                apublix = apublix + 2.29;
+                akroger = akroger + 3.79;
+            elseif min(cell2mat(struct2cell(tomatoes))) == 3.79
+                disp('tomatoes cheapest at Kroger: $3.79 (Walmart: $1.48, publix: $2.29)')
+                a(24) = 3.79;
+                awalmart = awalmart + 1.48;
+                apublix = apublix + 2.29;
+                akroger = akroger + 3.79;
+            else
+                a(24)=0;
+            end
+        case 25
+            if min(cell2mat(struct2cell(trailmix))) == 4.47
+                disp('trailmix cheapest at Walmart: $4.47 (publix: $4.49, Kroger: $4.29)');
+                a(25) = 4.47;
+                awalmart = awalmart + 4.47;
+                apublix = apublix + 4.49;
+                akroger = akroger + 4.29;
+            elseif min(cell2mat(struct2cell(trailmix))) == 4.49
+                disp('trailmix cheapest at publix: $4.49 (Walmart: $4.47, Kroger: $4.29)')
+                a(25) = 4.49;
+                awalmart = awalmart + 4.47;
+                apublix = apublix + 4.49;
+                akroger = akroger + 4.29;
+            elseif min(cell2mat(struct2cell(trailmix))) == 4.29
+                disp('trailmix cheapest at Kroger: $4.29 (Walmart: $4.47, publix: $4.49)')
+                a(25) = 4.29;
+                awalmart = awalmart + 4.47;
+                apublix = apublix + 4.49;
+                akroger = akroger + 4.29;
+            else
+                a(25)=0;
+            end
+        case 26
+            if min(cell2mat(struct2cell(spinach))) == 2.94
+                disp('spinach cheapest at Walmart: $2.94 (publix: $2.49, Kroger: $0.98)');
+                a(26) = 2.94;
+                awalmart = awalmart + 2.94;
+                apublix = apublix + 2.49;
+                akroger = akroger + 0.98;
+            elseif min(cell2mat(struct2cell(spinach))) == 2.49
+                disp('spinach cheapest at publix: $2.49 (Walmart: $2.94, Kroger: $0.98)')
+                a(26) = 2.49;
+                awalmart = awalmart + 2.94;
+                apublix = apublix + 2.49;
+                akroger = akroger + 0.98;
+            elseif min(cell2mat(struct2cell(spinach))) == 0.98
+                disp('spinach cheapest at Kroger: $0.98 (Walmart: $2.94, publix: $2.49)')
+                a(26) = 0.98;
+                awalmart = awalmart + 2.94;
+                apublix = apublix + 2.49;
+                akroger = akroger + 0.98;
+            else
+                a(26)=0;
+            end
+        case 27
+            if min(cell2mat(struct2cell(redngreenpeppers))) == 0.78
+                disp('redngreenpeppers cheapest at Walmart: $0.78 (publix: $2.69, Kroger: $0.68)');
+                a(27) = 0.78;
+                awalmart = awalmart + 0.78;
+                apublix = apublix + 2.69;
+                akroger = akroger + 0.68;
+            elseif min(cell2mat(struct2cell(redngreenpeppers))) == 3.50
+                disp('redngreenpeppers cheapest at publix: $2.69 (Walmart: $0.78, Kroger: $0.68)')
+                a(27) = 2.69;
+                awalmart = awalmart + 0.78;
+                apublix = apublix + 2.69;
+                akroger = akroger + 0.68;
+            elseif min(cell2mat(struct2cell(redngreenpeppers))) == 0.68
+                disp('redngreenpeppers cheapest at Kroger: $0.68 (Walmart: $0.78, publix: $2.69)')
+                a(27) = 0.68;
+                awalmart = awalmart + 0.78;
+                apublix = apublix + 2.69;
+                akroger = akroger + 0.68;
+            else
+                a(27)=0;
+            end
+        case 28
+            if min(cell2mat(struct2cell(oatmeal))) == 1.34
+                disp('oatmeal cheapest at Walmart: $1.34 (publix: $2.97, Kroger: $2.49)');
+                a(28) = 1.34;
+                awalmart = awalmart + 1.34;
+                apublix = apublix + 2.97;
+                akroger = akroger + 2.49;
+            elseif min(cell2mat(struct2cell(oatmeal))) == 2.97
+                disp('oatmeal cheapest at publix: $2.97 (Walmart: $1.34, Kroger: $2.49)')
+                a(28) = 2.97;
+                awalmart = awalmart + 1.34;
+                apublix = apublix + 2.97;
+                akroger = akroger + 2.49;
+            elseif min(cell2mat(struct2cell(oatmeal))) == 2.49
+                disp('oatmeal cheapest at Kroger: $2.49 (Walmart: $1.34, publix: $2.97)')
+                a(28) = 2.49;
+                awalmart = awalmart + 1.34;
+                apublix = apublix + 2.97;
+                akroger = akroger + 2.49;
+            else
+                a(28)=0;
+            end
+        case 29
+            if min(cell2mat(struct2cell(corn))) == 0.50
+                disp('corn cheapest at Walmart: $0.50 (publix: $1.25, Kroger: $0.75)');
+                a(29) = 0.50;
+                awalmart = awalmart + 0.50;
+                apublix = apublix + 1.25;
+                akroger = akroger + 0.75;
+            elseif min(cell2mat(struct2cell(corn))) == 1.25
+                disp('corn cheapest at publix: $1.25 (Walmart: $0.50, Kroger: $0.75)')
+                a(29) = 1.25;
+                awalmart = awalmart + 0.50;
+                apublix = apublix + 1.25;
+                akroger = akroger + 0.75;
+            elseif min(cell2mat(struct2cell(corn))) == 0.75
+                disp('corn cheapest at Kroger: $0.75 (Walmart: $0.50, publix: $1.25)')
+                a(29) = 0.75;
+                awalmart = awalmart + 0.50;
+                apublix = apublix + 1.25;
+                akroger = akroger + 0.75;
+            else
+                a(29)=0;
+            end
+        case 30
+            if min(cell2mat(struct2cell(granola))) == 2.97
+                disp('granola cheapest at Walmart: $2.97 (publix: $2.45, Kroger: $2.50)');
+                a(30) = 2.97;
+                awalmart = awalmart + 2.97;
+                apublix = apublix + 2.45;
+                akroger = akroger + 2.50;
+            elseif min(cell2mat(struct2cell(granola))) == 2.45
+                disp('granola cheapest at publix: $2.45 (Walmart: $2.97, Kroger: $2.50)')
+                a(30) = 2.45;
+                awalmart = awalmart + 2.97;
+                apublix = apublix + 2.45;
+                akroger = akroger + 2.50;
+            elseif min(cell2mat(struct2cell(granola))) == 2.50
+                disp('granola cheapest at Kroger: $2.50 (Walmart: $2.97, publix: $2.45)')
+                a(30) = 2.50;
+                awalmart = awalmart + 2.97;
+                apublix = apublix + 2.45;
+                akroger = akroger + 2.50;
+            else
+                a(30)=0;
+            end
+        case 31
+            if min(cell2mat(struct2cell(garlic))) == 3.28
+                disp('garlic cheapest at Walmart: $3.28 (publix: $3.69, Kroger: $0.79)');
+                a(31) = 3.28;
+                awalmart = awalmart + 3.28;
+                apublix = apublix + 3.69;
+                akroger = akroger + 0.79;
+            elseif min(cell2mat(struct2cell(garlic))) == 3.69
+                disp('garlic cheapest at publix: $3.69 (Walmart: $3.28, Kroger: $0.79)')
+                a(31) = 3.69;
+                awalmart = awalmart + 3.28;
+                apublix = apublix + 3.69;
+                akroger = akroger + 0.79;
+            elseif min(cell2mat(struct2cell(garlic))) == 0.79
+                disp('garlic cheapest at Kroger: $0.79 (Walmart: $3.28, publix: $3.69)')
+                a(31) = 0.79;
+                awalmart = awalmart + 3.28;
+                apublix = apublix + 3.69;
+                akroger = akroger + 0.79;
+            else
+                a(31)=0;
+            end
+            
+        case 32
+            if min(cell2mat(struct2cell(oliveoil))) == 5.49
+                disp('oliveoil cheapest at Walmart: $5.49 (publix: $4.99, Kroger: $5.99)');
+                a(32) = 5.49;
+                awalmart = awalmart + 5.49;
+                apublix = apublix + 4.99;
+                akroger = akroger + 5.99;
+            elseif min(cell2mat(struct2cell(oliveoil))) == 4.99
+                disp('oliveoil cheapest at publix: $4.99 (Walmart: $5.49, Kroger: $5.99)')
+                a(32) = 4.99;
+                awalmart = awalmart + 5.49;
+                apublix = apublix + 4.99;
+                akroger = akroger + 5.99;
+            elseif min(cell2mat(struct2cell(oliveoil))) == 5.99
+                disp('oliveoil cheapest at Kroger: $5.99 (Walmart: $5.49, publix: $4.99)')
+                a(32) = 5.99;
+                awalmart = awalmart + 5.49;
+                apublix = apublix + 4.99;
+                akroger = akroger + 5.99;
+            else
+                a(32)=0;
+            end
+        case 33
+            if min(cell2mat(struct2cell(celery))) == 1.34
+                disp('celery cheapest at Walmart: $1.34 (publix: $1.99, Kroger: $0.98)');
+                a(33) = 1.34;
+                awalmart = awalmart + 1.34;
+                apublix = apublix + 1.99;
+                akroger = akroger + 0.98;
+            elseif min(cell2mat(struct2cell(celery))) == 1.99
+                disp('celery cheapest at publix: $1.99 (Walmart: $1.34, Kroger: $0.98)')
+                a(33) = 1.99;
+                awalmart = awalmart + 1.34;
+                apublix = apublix + 1.99;
+                akroger = akroger + 0.98;
+            elseif min(cell2mat(struct2cell(celery))) == 0.98
+                disp('celery cheapest at Kroger: $0.98(Walmart: $1.34, publix: $1.99)')
+                a(33) = 0.98;
+                awalmart = awalmart + 1.34;
+                apublix = apublix + 1.99;
+                akroger = akroger + 0.98;
+            else
+                a(33)=0;
+            end
+        case 34
+            if min(cell2mat(struct2cell(bananas))) == 0.56
+                disp('bananas cheapest at Walmart: $0.56 (publix: $0.65, Kroger: $0.55)');
+                a(34) = 0.56;
+                awalmart = awalmart + 0.56;
+                apublix = apublix + 0.65;
+                akroger = akroger + 0.55;
+            elseif min(cell2mat(struct2cell(bananas))) == 0.65
+                disp('bananas cheapest at publix: $0.65 (Walmart: $0.56, Kroger: $0.55)')
+                a(34) = 0.65;
+                awalmart = awalmart + 0.56;
+                apublix = apublix + 0.65;
+                akroger = akroger + 0.55;
+            elseif min(cell2mat(struct2cell(bananas))) == 0.55
+                disp('bananas cheapest at Kroger: $0.55 (Walmart: $0.56, publix: $0.65)')
+                a(34) = 0.55;
+                awalmart = awalmart + 0.56;
+                apublix = apublix + 0.65;
+                akroger = akroger + 0.55;
+            else
+                a(34)=0;
+            end
+        case 35
+            if min(cell2mat(struct2cell(ketchup))) == 1.00
+                disp('ketchup cheapest at Walmart: $1.00 (publix: $1.49, Kroger: $1.69)');
+                a(35) = 1.00;
+                awalmart = awalmart + 1.00;
+                apublix = apublix + 1.49;
+                akroger = akroger + 1.69;
+            elseif min(cell2mat(struct2cell(ketchup))) == 1.49
+                disp('ketchup cheapest at publix: $1.49 (Walmart: $1.00, Kroger: $1.69)')
+                a(35) = 1.49;
+                awalmart = awalmart + 1.00;
+                apublix = apublix + 1.49;
+                akroger = akroger + 1.69;
+            elseif min(cell2mat(struct2cell(ketchup))) == 1.69
+                disp('ketchup cheapest at Kroger: $1.69 (Walmart: $1.00, publix: $1.49)')
+                a(35) = 1.69;
+                awalmart = awalmart + 1.00;
+                apublix = apublix + 1.49;
+                akroger = akroger + 1.69;
+            else
+                a(35)=0;
+            end
+        case 36
+            if min(cell2mat(struct2cell(hotdogs))) == 3.49
+                disp('hotdogs cheapest at Walmart: $3.49 (publix: $3.49, Kroger: $3.99)');
+                a(36) = 3.49;
+                awalmart = awalmart + 3.49;
+                apublix = apublix + 3.49;
+                akroger = akroger + 3.99;
+            elseif min(cell2mat(struct2cell(hotdogs))) == 3.49
+                disp('hotdogs cheapest at publix: $3.49 (Walmart: $3.49, Kroger: $3.99)')
+                a(36) = 3.49;
+                awalmart = awalmart + 3.49;
+                apublix = apublix + 3.49;
+                akroger = akroger + 3.99;
+            elseif min(cell2mat(struct2cell(hotdogs))) == 3.99
+                disp('hotdogs cheapest at Kroger: $3.99 (Walmart: $3.49, publix: $3.49)')
+                a(36) = 3.99;
+                awalmart = awalmart + 3.49;
+                apublix = apublix + 3.49;
+                akroger = akroger + 3.99;
+            else
+                a(36)=0;
+            end
+        case 37
+            if min(cell2mat(struct2cell(water))) == 4.99
+                disp('water cheapest at Walmart: $4.99 (publix: $4.99, Kroger: $4.50)');
+                a(37) = 4.99;
+                awalmart = awalmart + 4.99;
+                apublix = apublix + 4.99;
+                akroger = akroger + 4.50;
+            elseif min(cell2mat(struct2cell(water))) == 4.99
+                disp('water cheapest at publix: $4.99 (Walmart: $4.99, Kroger: $4.50)')
+                a(37) = 4.99;
+                awalmart = awalmart + 4.99;
+                apublix = apublix + 4.99;
+                akroger = akroger + 4.50;
+            elseif min(cell2mat(struct2cell(water))) == 4.50
+                disp('water cheapest at Kroger: $4.50 (Walmart: $4.99, publix: $4.99)')
+                a(37) = 4.50;
+                awalmart = awalmart + 4.99;
+                apublix = apublix + 4.99;
+                akroger = akroger + 4.50;
+            else
+                a(37)=0;
+            end
+        case 38
+            if min(cell2mat(struct2cell(coke))) == 1.50
+                disp('coke cheapest at Walmart: $1.50 (publix: $1.67, Kroger: $1.67)');
+                a(38) = 1.50;
+                awalmart = awalmart + 1.50;
+                apublix = apublix + 1.67;
+                akroger = akroger + 1.67;
+            elseif min(cell2mat(struct2cell(coke))) == 1.67
+                disp('coke cheapest at publix: $1.67 (Walmart: $1.50, Kroger: $1.67)')
+                a(38) = 1.67;
+                awalmart = awalmart + 1.50;
+                apublix = apublix + 1.67;
+                akroger = akroger + 1.67;
+            elseif min(cell2mat(struct2cell(coke))) == 1.67
+                disp('coke cheapest at Kroger: $1.67 (Walmart: $1.50, publix: $1.67)')
+                a(38) = 1.67;
+                awalmart = awalmart + 1.50;
+                apublix = apublix + 1.67;
+                akroger = akroger + 1.67;
+            else
+                a(38)=0;
+            end
+        case 39
+            
+            if min(cell2mat(struct2cell(groundbeef))) == 5.49
+                
+                disp('groundbeef cheapest at Walmart: $5.49 (publix: $6.02, Kroger: $5.99)');
+                
+                a(39) = 5.49;
+                
+                awalmart = awalmart + 5.49;
+                
+                apublix = apublix + 6.02;
+                
+                akroger = akroger + 5.99;
+                
+            elseif min(cell2mat(struct2cell(groundbeef))) == 6.02
+                
+                disp('groundbeef cheapest at publix: $6.02 (Walmart: $5.49, Kroger: $5.99)')
+                
+                a(39) = 6.02;
+                
+                awalmart = awalmart + 5.49;
+                
+                apublix = apublix + 6.02;
+                
+                akroger = akroger + 5.99;
+                
+            elseif min(cell2mat(struct2cell(groundbeef))) == 5.99
+                
+                disp('groundbeef cheapest at Kroger: $5.99 (Walmart: $5.49, publix: $6.02)')
+                
+                a(39) = 5.99;
+                
+                awalmart = awalmart + 5.49;
+                
+                apublix = apublix + 6.02;
+                
+                akroger = akroger + 5.99;
+                
+            else
+                
+                a(39)=0;
+                
+            end
+            
+        case 40
+            
+            if min(cell2mat(struct2cell(spaghetti))) == 2.19
+                
+                disp('spaghetti cheapest at Walmart: $2.19 (publix: $1.47, Kroger: $2.59)');
+                
+                a(40) = 2.19;
+                
+                awalmart = awalmart + 2.19;
+                
+                apublix = apublix + 1.47;
+                
+                akroger = akroger + 2.59;
+                
+            elseif min(cell2mat(struct2cell(spaghetti))) == 1.47
+                
+                disp('spaghetti cheapest at publix: $1.47 (Walmart: $2.19, Kroger: $2.59)')
+                
+                a(40) = 1.47;
+                
+                awalmart = awalmart + 2.19;
+                
+                apublix = apublix + 1.47;
+                
+                akroger = akroger + 2.59;
+                
+            elseif min(cell2mat(struct2cell(spaghetti))) == 2.59
+                
+                disp('spaghetti cheapest at Kroger: $2.59 (Walmart: $2.19, publix: $1.47)')
+                
+                a(40) = 2.59;
+                
+                awalmart = awalmart + 2.19;
+                
+                apublix = apublix + 1.47;
+                
+                akroger = akroger + 2.59;
+                
+            else
+                
+                a(40)=0;
+                
+            end
+            
+        case 41
+            
+            if min(cell2mat(struct2cell(spaghettisauce))) == 1.79
+                
+                disp('spaghettisauce cheapest at Walmart: $1.79 (publix: $1.87, Kroger: $1.89)');
+                
+                a(41) = 1.79;
+                
+                awalmart = awalmart + 1.79;
+                
+                apublix = apublix + 1.87;
+                
+                akroger = akroger + 1.89;
+                
+            elseif min(cell2mat(struct2cell(spaghettisauce))) == 1.87
+                
+                disp('spaghettisauce cheapest at publix: $1.87 (Walmart: $1.79, Kroger: $1.89)')
+                
+                a(41) = 1.87;
+                
+                awalmart = awalmart + 1.79;
+                
+                apublix = apublix + 1.87;
+                
+                akroger = akroger + 1.89;
+                
+            elseif min(cell2mat(struct2cell(spaghettisauce))) == 1.89
+                
+                disp('spaghettisauce cheapest at Kroger: $1.87 (Walmart: $1.79, publix: $1.87)')
+                
+                a(41) = 1.89;
+                
+                awalmart = awalmart + 1.79;
+                
+                apublix = apublix + 1.87;
+                
+                akroger = akroger + 1.89;
+                
+            else
+                
+                a(41)=0;
+                
+            end
+            
+        case 42
+            
+            if min(cell2mat(struct2cell(salt))) == 0.84
+                
+                disp('salt cheapest at Walmart: $0.84 (publix: $0.81, Kroger: $0.83)');
+                
+                a(42) = 0.84;
+                
+                awalmart = awalmart + 0.84;
+                
+                apublix = apublix + 0.81;
+                
+                akroger = akroger + 0.83;
+                
+            elseif min(cell2mat(struct2cell(salt))) == 0.81
+                
+                disp('salt cheapest at publix: $0.81 (Walmart: $0.84, Kroger: $0.83)')
+                
+                a(42) = 0.81;
+                
+                awalmart = awalmart + 0.84;
+                
+                apublix = apublix + 0.81;
+                
+                akroger = akroger + 0.83;
+                
+            elseif min(cell2mat(struct2cell(salt))) == 0.83
+                
+                disp('salt cheapest at Kroger: $0.83 (Walmart: $0.84, publix: $0.81)')
+                
+                a(42) = 0.83;
+                
+                awalmart = awalmart + 0.84;
+                
+                apublix = apublix + 0.81;
+                
+                akroger = akroger + 0.83;
+                
+            else
+                
+                a(42)=0;
+                
+            end
+            
+        case 43
+            
+            if min(cell2mat(struct2cell(pepper))) == 1.88
+                
+                disp('pepper cheapest at Walmart: $2.99 (publix: $2.50, Kroger: $1.00)');
+                
+                a(43) = 1.88;
+                
+                awalmart = awalmart + 1.88;
+                
+                apublix = apublix + 2.49;
+                
+                akroger = akroger + 2.59;
+                
+            elseif min(cell2mat(struct2cell(pepper))) == 2.49
+                
+                disp('pepper cheapest at publix: $2.49 (Walmart: $2.00, Kroger: $1.00)')
+                
+                a(43) = 2.49;
+                
+                awalmart = awalmart + 1.88;
+                
+                apublix = apublix + 2.49;
+                
+                akroger = akroger + 2.59;
+                
+            elseif min(cell2mat(struct2cell(pepper))) == 2.59
+                
+                disp('pepper cheapest at Kroger: $2.59 (Walmart: $1.88, publix: $2.49)')
+                
+                a(43) = 2.59;
+                
+                awalmart = awalmart + 1.88;
+                
+                apublix = apublix + 2.49;
+                
+                akroger = akroger + 2.59;
+                
+            else
+                
+                a(43)=0;
+                
+            end
+            
+        case 44
+            
+            if min(cell2mat(struct2cell(hotdogbun))) == 3.26
+                
+                disp('hotdogbuns cheapest at Walmart: $3.26 (publix: $3.39, Kroger: $3.20)');
+                
+                a(44) = 3.26;
+                
+                awalmart = awalmart + 3.26;
+                
+                apublix = apublix + 3.39;
+                
+                akroger = akroger + 3.20;
+                
+            elseif min(cell2mat(struct2cell(hotdogbun))) == 3.39
+                
+                disp('hotdogbuns cheapest at publix: $3.39 (Walmart: $3.26, Kroger: $3.20)')
+                
+                a(44) = 3.39;
+                
+                awalmart = awalmart + 3.26;
+                
+                apublix = apublix + 3.30;
+                
+                akroger = akroger + 3.20;
+                
+            elseif min(cell2mat(struct2cell(hotdogbun))) == 3.20
+                
+                disp('hotdogbuns cheapest at Kroger: $3.20 (Walmart: $3.26, publix: $3.39)')
+                
+                a(44) = 3.20;
+                
+                awalmart = awalmart + 3.26;
+                
+                apublix = apublix + 3.30;
+                
+                akroger = akroger + 3.20;
+                
+            else
+                
+                a(44)=0;
+                
+            end
+            
+        case 45
+            if min(cell2mat(struct2cell(onion))) == 0.68
+                disp('onion cheapest at Walmart: $0.68 (publix: $1.69, Kroger: $1.00)');
+                a(45) = 0.68;
+                awalmart = awalmart + 0.68;
+                apublix = apublix + 1.69;
+                akroger = akroger + 1.00;
+            elseif min(cell2mat(struct2cell(onion))) == 1.69
+                disp('onion cheapest at publix: $1.69 (Walmart: $0.68, Kroger: $1.00)')
+                a(45) = 3.50;
+                awalmart = awalmart + 0.68;
+                apublix = apublix + 1.69;
+                akroger = akroger + 1.00;
+            elseif min(cell2mat(struct2cell(onion))) == 1.00
+                disp('onion cheapest at Kroger: $1.00 (Walmart: $0.68, publix: $1.69)')
+                a(45) = 1.00;
+                awalmart = awalmart + 0.68;
+                apublix = apublix + 1.69;
+                akroger = akroger + 1.00;
+            else
+                a(45)=0;
+            end
+            
+            
+        case 46
+            loop = OFF;
+            close;
+            b=sum(a);
+            choice15 = menu('Please choose one of the following: ','Walmart only','Publix only', 'Kroger only', 'Cheapest between all 3');
+            switch choice15
+                case 1
+                    fprintf('Subtotal of items strictly from Walmart only: $%5.2f\n', awalmart);
+                    choice3 = menu('Please enter tax %','5%','6%','7%','done');
+                    switch choice3
+                        case 1
+                            awalmart = awalmart + (awalmart*0.05);
+                            disp('Total (including 5% tax):');
+                            disp(sprintf('$%5.2f',awalmart));
+                        case 2
+                            awalmart = awalmart + (awalmart*0.06);
+                            disp('Total (including 6% tax):');
+                            disp(sprintf('$%5.2f',awalmart));
+                        case 3
+                            awalmart = awalmart + (awalmart*0.07);
+                            disp('Total (including 7% tax):');
+                            disp(sprintf('$%5.2f',awalmart));
+                        case 4
+                            loop2 = OFF;
+                            close;
+                    end
+                case 2
+                    fprintf('Subtotal of items strictly from Publix only: $%5.2f\n', apublix);
+                    choice3 = menu('Please enter tax %','5%','6%','7%','done');
+                    switch choice3
+                        case 1
+                            apublix = apublix + (apublix*0.05);
+                            disp('Total (including 5% tax):');
+                            disp(sprintf('$%5.2f',apublix));
+                        case 2
+                            apublix = apublix + (apublix*0.06);
+                            disp('Total (including 6% tax):');
+                            disp(sprintf('$%5.2f',apublix));
+                        case 3
+                            apublix = apublix + (apublix*0.07);
+                            disp('Total (including 7% tax):');
+                            disp(sprintf('$%5.2f',apublix));
+                        case 4
+                            loop2 = OFF;
+                            close;
+                    end
+                case 3
+                    fprintf('Subtotal of items strictly Kroger only: $%5.2f\n', akroger);
+                    choice3 = menu('Please enter tax %','5%','6%','7%','done');
+                    switch choice3
+                        case 1
+                            akroger = akroger + (akroger*0.05);
+                            disp('Total (including 5% tax):');
+                            disp(sprintf('$%5.2f',akroger));
+                        case 2
+                            akroger = akroger + (akroger*0.06);
+                           disp('Total (including 6% tax):');
+                            disp(sprintf('$%5.2f',akroger));
+                        case 3
+                            akroger = akroger + (akroger*0.07);
+                            disp('Total (including 7% tax):');
+                            disp(sprintf('$%5.2f',akroger));
+                        case 4
+                            loop2 = OFF;
+                            close;
+                    end
+                case 4
+                    fprintf('Subtotal of cheapest items between the 3 stores: $%5.2f\n',b);
+                    choice2 = menu('Please enter tax %','5%','6%','7%','done');
+                    switch choice2
+                        case 1
+                            c=b+(b*0.05);
+                            disp('Total (including 5% tax):');
+                            disp(sprintf('$%5.2f',c));
+                        case 2
+                            c=b+(b*0.06);
+                            disp('Total (including 6% tax):');
+                            disp(sprintf('$%5.2f',c));
+                        case 3
+                            c=b+(b*0.07);
+                            disp('Total (including 7% tax):');
+                            disp(sprintf('$%5.2f',c));
+                        case 4
+                            loop2 = OFF;
+                            close;
+                    end
+            end
+    end
+     
+end
